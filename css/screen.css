@@ -209,15 +209,21 @@ label {
 @media screen and (min-width: 300px){
   body{ 
     text-align: center;
+	font-size: 1em;
   }
 
   h1{ 
     font-size: 1.5em;
-    margin: 15%;
-    position: relative; 
+    margin: 15%; 
   }
   
+  p{
+	 margin: 10%; 
+  }
   
+  ol li{
+     margin: 20% 0%;	 
+  }
 }
 
 @media screen and (min-width: 700px){
