@@ -228,6 +228,13 @@ label {
 	 padding: 5% 0%;
 	 border-radius: 10%;
   }
+  
+  #email{
+	  border: none;
+	  background-color: gray;
+	  color: white;
+	  width: 90%;
+  }
 }
 
 @media screen and (min-width: 700px){
