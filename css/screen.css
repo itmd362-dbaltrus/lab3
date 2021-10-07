@@ -227,14 +227,18 @@ label {
      background-color: #8c8c8c;	 
 	 color: #f2f2f2;
 	 padding: 8%;
-	 border-radius: 15% 0;
+	 border-radius: 25% 0;
   }
   
   ol li{
      margin: 10% 0%;
 	 background: #cccccc;
 	 padding: 5% 0%;
-	 border-radius: 10%;
+	 border-radius: 20%;
+  }
+  
+  #input-age-verification{
+    border-radius: 0 25%;
   }
   
   #email{
@@ -263,12 +267,17 @@ label {
   }
   
   ol li{
-     margin: 0;
-	 background: #cccccc;
-	 padding: 0;
+    padding: 2%;
+	width: 25%;
+	position: relative;
+	left: 32.5%;
+	margin: 2%;
   }
   
-  #email{
-	  
+  #input-submit{
+    width: 20%;
+	box-sizing: border-box;
+	left: 37%;
   }
+  
 }
